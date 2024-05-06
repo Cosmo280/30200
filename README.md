@@ -1,3 +1,11 @@
 * ### This is a project aim to analyze the inter-firm strucutre between organizations in the semiconductor production network.
 * ### I wrote my literature review as well as my research design in pdf and I have yet to transfer it into .bib format. The literature review is [here](https://github.com/Cosmo280/30200/blob/main/Thesis%20proposal%20components/1st%20draft%20lit%20review%20(1).pdf).
 1. My project argues that transaction cost theory offers no middle ground between internalizing and outsourcing when analyzing firm boundaries. Thus embeddedness should be operationalize with structural cohesion and the depiction of the inter-firm organizational governance structure would require network analysis with organizations as unit of analysis and interlocking dirocrates are strong ties. 
+2. Requirements with versions: 
+* Python -- 3.11.5
+* Numpy -- 1.24.3
+* Pandas -- 1.5.3
+* Matplotlib -- 3.7.1
+* Spacy -- 3.7.4
+* Networkx -- 3.1
+* Pyvis -- 0.32
