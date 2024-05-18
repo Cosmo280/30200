@@ -1,13 +1,15 @@
-* ### This is a project aim to analyze the inter-firm strucutre between organizations in the semiconductor production network.
-* ### I wrote my literature review as well as my research design in pdf and I have yet to transfer it into .bib format. The literature review is [here](https://github.com/Cosmo280/30200/blob/main/Thesis%20proposal%20components/1st%20draft%20lit%20review%20(1).pdf).
+### This is the original dataset and network mapping of my research project proposal: A network analysis to the semiconductor supply chain governance structure
+- The original data collection process is listed in this jupyter notebook. It's not well organized so I extracted the raw data and store them in this excel file [raw_data](https://github.com/Cosmo280/organizational-network-analysis/blob/main/Network%20Analysis/raw_data.xlsx) for the convinence of replicate my results. In the excel file, the column "core actors" are the names of all the core organizations; the column "peripheral actors" are the names of all the peripheral organizations; the columns "Ties_Org1" and "Ties_Org2" are the two organizations that formed a tie, make all rows in columns "Ties_Org1" and "Ties_Org2" into ("Ties_Org1", "Ties_Org2") tuples to create a list of all the network ties. Because the ties are non-directional, there is no need to create a list of ("Ties_Org2", "Ties_Org1") tuples. 
+&nbsp;
 * ### Link to presentation slides: https://docs.google.com/presentation/d/1bnDo80cQu7bRS-YaNlS6LAqo-4ZAsahPlmnQUqEHorw/edit#slide=id.g2d28a14a21f_0_1226
-1. My project argues that transaction cost theory offers no middle ground between internalizing and outsourcing when analyzing firm boundaries. Thus embeddedness should be operationalize with structural cohesion and the depiction of the inter-firm organizational governance structure would require network analysis with organizations as unit of analysis and interlocking dirocrates are strong ties. 
-2. [Requirements with versions](https://github.com/Cosmo280/30200/blob/main/requirements.txt): 
+&nbsp;
+- My project argues that transaction cost theory offers no middle ground between internalizing and outsourcing when analyzing firm boundaries. Thus embeddedness should be operationalize with structural cohesion and the depiction of the inter-firm organizational governance structure would require network analysis with organizations as unit of analysis and interlocking dirocrates are strong ties.
+&nbsp; 
+- [Requirements with versions](https://github.com/Cosmo280/30200/blob/main/requirements.txt): 
 * Python -- 3.11.5
 * Numpy -- 1.24.3
 * Pandas -- 1.5.3
 * Matplotlib -- 3.7.1
-* Spacy -- 3.7.4
 * Networkx -- 3.1
-* Pyvis -- 0.32
-3. Citation: Wang, C.(2024), organizational network analysis (Version 1.0.0). GitHub. https://github.com/Cosmo280/30200.git
+&nbsp;
+- Citation: Wang, C.(2024), organizational network analysis (Version 1.0.0). GitHub. https://github.com/Cosmo280/30200.git
